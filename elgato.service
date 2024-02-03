@@ -1,3 +1,10 @@
+[Unit]
+Description=Elgato Stream Deck Controller
+
 [Service]
 ExecStart=node /home/rash/automation/index.js
 Restart=always
+
+[Install]
+WantedBy=default.target
+
