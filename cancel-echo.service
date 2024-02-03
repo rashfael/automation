@@ -1,0 +1,8 @@
+[Unit]
+After=dev-snd-by\x2did-usb\x2dRoland_UA\x2d25EX\x2d00.device
+
+[Service]
+ExecStart=/home/rash/automation/cancel-echo.sh
+
+[Install]
+WantedBy=dev-snd-by\x2did-usb\x2dRoland_UA\x2d25EX\x2d00.device

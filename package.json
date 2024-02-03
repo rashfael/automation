@@ -1,0 +1,24 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elgato-stream-deck/node": "^6.0.0",
+    "@slack/web-api": "^7.0.1",
+    "@vue/reactivity": "^3.4.15",
+    "emoji-datasource": "^15.0.1",
+    "emoji-js": "^3.8.0",
+    "fontkit": "^2.0.2",
+    "node-emoji": "^2.1.3",
+    "sharp": "^0.33.2",
+    "usb": "^2.11.0"
+  }
+}
