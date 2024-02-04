@@ -2,7 +2,8 @@
 Description=Elgato Stream Deck Controller
 
 [Service]
-ExecStart=node /home/rash/automation/index.js
+WorkingDirectory=/home/rash/automation
+ExecStart=npm start
 Restart=always
 
 [Install]
