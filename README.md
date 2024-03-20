@@ -7,6 +7,7 @@
 # setup
 
 ```sh
+cp config.dist.js config.js # fill out the necessary fields
 npm ci
 git submodule update --init --recursive
 systemctl --user enable ./elgato.service
