@@ -12,3 +12,5 @@ npm ci
 git submodule update --init --recursive
 systemctl --user enable ./elgato.service
 ```
+
+You probably need to change some paths in the service file and elsewhere.
